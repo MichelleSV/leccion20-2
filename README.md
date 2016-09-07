@@ -24,4 +24,4 @@ var feature = 'closures';
 	} 
 })();
 ```
-Al principio tenemos una funcion autoejecutable, por lo cual, al ejecutarse tomará la variable local que se le ha trogado
+En una funcion autoejecutable corre primero el código que está dentro y al momento de correr usa su variable local, entonces, al momento de borrar el "var" de la variable local, la convertimos en global y por lo tanto la funcion toma la primera variable global para ejecutarse. Esto pasa debido  al comportamiento predeterminado del movimiento de JavaScript(hoisting).
