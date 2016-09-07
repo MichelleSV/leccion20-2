@@ -24,3 +24,4 @@ var feature = 'closures';
 	} 
 })();
 ```
+Al principio tenemos una funcion autoejecutable, por lo cual, al ejecutarse tomará la variable local que se le ha trogado
